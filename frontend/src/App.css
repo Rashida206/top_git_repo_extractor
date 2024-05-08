@@ -1,0 +1,73 @@
+/* Global settings */
+.app-container {
+  width: 100%; /* Full width to eliminate any padding/margin */
+  margin: 0;
+  padding: 20px 0; /* Add padding to the top */
+  background-color: #f7fcb9; /* Lime yellow background */
+  font-family: 'Roboto', sans-serif; /* Professional font */
+}
+
+/* Styling the dropdown menu */
+.dropdown {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 16px;
+  cursor: pointer; /* Indicate it's selectable */
+}
+
+/* Container for cards to handle layout */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center cards in the view */
+  background-color: #f7fcb9; /* Ensure background continuity */
+  padding: 10px 0; /* Padding for spacing between cards and edge */
+}
+
+/* Individual card styling */
+.card {
+  width: 300px;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative; /* Position relative for hover effect positioning */
+}
+
+/* Color classes for different cards */
+.card-1 { background-color: #ffe0b2; color: #333; } /* Example colors */
+.card-2 { background-color: #bbdefb; color: #333; }
+.card-3 { background-color: #f8bbd0; color: #333; }
+.card-4 { background-color: #d1c4e9; color: #333; }
+
+/* Hover effects */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-color: #f7fcb9; /* Lime yellow border on hover for effect */
+}
+
+/* Heading styling */
+h2 {
+  font-weight: bold; /* Bolder headings */
+  margin-bottom: 5px; /* Spacing between heading and subtitle */
+}
+
+/* Text styling */
+p {
+  font-size: 14px;
+}
+
+/* Link styling */
+a {
+  color: #065535; /* Subtle green for links */
+  text-decoration: none; /* No underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for visibility */
+}
